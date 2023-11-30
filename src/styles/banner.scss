@@ -1,0 +1,68 @@
+//SASS PAGE
+// $base-color: #c6538c;
+$blac-color:#212121;
+$blue1:#003464;
+$blue:#006cd1;
+$yellow:#ff9922;
+$back-opacity: rgb(0, 0, 0,.5);
+$white-kolor: #fff;
+$blue-grey : rgb(239 242 250/1);
+
+
+.banner{
+    background-color: $blue-grey;
+    height: 50px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: start;
+    border-left: 5px solid #003464;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 4px;
+
+    h1{
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .banner{
+        background-color: $blue-grey;
+        height: 50px;
+        width: 90%;
+        margin: 10px auto;
+        text-align: start;
+        border-left: 5px solid #003464;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1px 4px;
+    
+        h1{
+            text-transform: uppercase;
+            font-size: 17px;
+        }
+    
+    }
+}
+
+// @media screen and (max-width:200px) {
+//     .about{
+//         .sommary{
+//             width: 90%;
+//             margin: auto;
+//             // text-align: center;
+//             font-weight: 400;
+//             background-color: blue;
+//             font-size: 20px;
+//             h4{
+//                 font-weight: 400;
+//             }
+//         }
+//     }
+// }

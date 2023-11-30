@@ -1,0 +1,295 @@
+//SASS PAGE
+$blac-color:#212121;
+$back-opacity: rgb(33, 33, 33,.9);
+$back-opacity: rgb(0, 0, 0,.8);
+$white-kolor: #fff;
+$white-opacity:#f9f9f9;
+$blue-grey : rgb(239 242 250/1);
+$blue:#003464;
+// $base-color: #c6538c;
+$blac-color:#221e1e;
+$red: #ff0006;
+$blue:#006cd1;
+$yellow:#ff9922;
+$back-opacity: rgb(0, 0, 0,.9);
+$white: #fff;
+$white-opacity:#f9f9f9;
+$white-black:#f7f7f7;
+$blue1:#003464;
+$primary-color: #006cd1;
+$text-color: #333;
+$dark-color: #000;
+
+
+.pays{
+    // background: blue;
+    display: flex;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    gap: 50px;
+
+    .form{
+        // background-color: grey;
+        .control{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            // width: 60px;
+            height: 60px;
+            // background-color: red;
+            label{
+                font-size: 12px;
+            }
+            input{
+                // padding: 2px 20px;
+                border: 1px solid grey;
+                border-bottom: 3px solid $blue1;
+                
+                // outline: none;
+                width: 280px;
+                height: 30px;
+                border-radius: 3px;
+            }
+        }
+
+        button{
+            border: none;
+            outline: none;
+            background-color: #003464;
+            border-radius: 4px;
+            padding: 10px 110px;
+            color: #f7f7f7;
+        }
+    }
+
+    .money{
+        // background-color: red;
+        // padding-top: 10px;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h1{
+            font-size: 20px;
+        }
+
+        .mobile-payement{
+            height: 50px;
+            border-left: 5px solid red;
+            // align-items: center;
+            background-color: rgb(255, 0, 4,.5);
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
+            .note {
+                // background: green;
+                h2{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #fff;
+                    margin-top: -3px;
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .mobile-payemento{
+            height: 50px;
+            border-left: 5px solid #ff9922;
+            align-items: center;
+            background-color: rgb(255, 153, 36,.5);
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
+            .note {
+                // background: green;
+                h2{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #fff;
+                    margin-top: -3px;
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .mobile-payementq{
+            height: 60px;
+            border-left: 5px solid purple;
+            align-items: center;
+            background-color: rgb(128, 0, 128,.5);
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
+            .note {
+                // background: green;
+                h2{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #fff;
+                    margin-top: -3px;
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .mobile-payementv{
+            height: 50px;
+            border-left: 5px solid #006cd1;
+            background-color: rgb(0, 108, 209,.5);
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
+            .note {
+                // background: green;
+                h2{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #fff;
+                    margin-top: -3px;
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .pays{
+        // background: blue;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        // flex-direction: column;
+        width: 80%;
+        height: auto;
+        margin: 5px auto;
+        gap: 10px;
+    
+        .form{
+            // background-color: grey;
+            h1{
+                font-size: 20px;
+            }
+            .control{
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                // width: 60px;
+                height: 57px;
+                label{
+                    font-size: 14px;
+                }
+                input{
+                    // padding: 2px 20px;
+                    border: 1px solid grey;
+                    border-bottom: 3px solid $blue1;
+                    font-size: 14px;
+                    width: 280px;
+                    height: 40px;
+                    border-radius: 2px;
+                }
+            }
+    
+            button{
+                border: none;
+                outline: none;
+                background-color: #003464;
+                border-radius: 4px;
+                padding: 10px 110px;
+                color: #f7f7f7;
+            }
+        }
+
+        
+        .money{
+            // background-color: red;
+            // padding-top: 10px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h1{
+                font-size: 20px;
+            }
+
+            .mobile-payement{
+                height: 40px;
+                border-left: 5px solid red;
+                // align-items: center;
+                background-color: rgb(255, 0, 4,.5);
+                border-bottom-left-radius: 3px;
+                border-top-left-radius: 3px;
+                .note {
+                    // background: green;
+                    h2{
+                        font-weight: 400;
+                        font-size: 17px;
+                        color: #fff;
+                        margin-top: -10px;
+                        margin-left: 20px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .mobile-payemento{
+                height: 40px;
+                border-left: 5px solid #ff9922;
+                align-items: center;
+                background-color: rgb(255, 153, 36,.5);
+                border-bottom-left-radius: 3px;
+                border-top-left-radius: 3px;
+                .note {
+                    // background: green;
+                    h2{
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #fff;
+                        margin-top: -10px;
+                        margin-left: 20px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .mobile-payementq{
+                height: 40px;
+                border-left: 5px solid purple;
+                align-items: center;
+                background-color: rgb(128, 0, 128,.5);
+                border-bottom-left-radius: 3px;
+                border-top-left-radius: 3px;
+                .note {
+                    // background: green;
+                    h2{
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #fff;
+                        margin-top: -10px;
+                        margin-left: 20px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .mobile-payementv{
+                height: 40px;
+                border-left: 5px solid #006cd1;
+                background-color: rgb(0, 108, 209,.5);
+                border-bottom-left-radius: 3px;
+                border-top-left-radius: 3px;
+                .note {
+                    // background: green;
+                    h2{
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #fff;
+                        margin-top: -10px;
+                        margin-left: 20px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+        
+    }
+}

@@ -1,0 +1,80 @@
+//SASS PAGE
+$blac-color:#212121;
+$back-opacity: rgb(33, 33, 33,.9);
+$back-opacity: rgb(0, 0, 0,.8);
+$white-kolor: #fff;
+$white-opacity:#f9f9f9;
+$blue-grey : rgb(239 242 250/1);
+$blue:#003464;
+// $base-color: #c6538c;
+$blac-color:#221e1e;
+$red: #ff0006;
+$blue:#006cd1;
+$yellow:#ff9922;
+$back-opacity: rgb(0, 0, 0,.9);
+$white: #fff;
+$white-opacity:#f9f9f9;
+$white-black:#f7f7f7;
+$blue1:#003464;
+$primary-color: #006cd1;
+$text-color: #333;
+$dark-color: #000;
+
+.about-card-list{
+    width: 80%;
+    margin: auto;
+    text-align: start;
+
+    .p{
+        width: 100%;
+        // margin: 10px auto;
+        // background-color: red;
+        // height: auto;
+        display: block;
+        // border: 1px solid grey;
+        // border-radius: 2px;
+        .pic{
+            // width: 30%;
+            // height: 190px;
+            // background-color: $blue-grey;
+            font-size: 17px;
+        }
+        .note{
+            // width: 60%;
+            text-align: start;
+            // margin-left: 5px;
+            p{color: grey;}
+        }
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .about-card-list{
+        width: 90%;
+        margin: auto;
+        text-align: start;
+    
+        .p{
+            width: 100%;
+            // margin: 10px auto;
+            // background-color: red;
+            // height: auto;
+            display: block;
+            // border: 1px solid grey;
+            // border-radius: 2px;
+            .pic{
+                // width: 30%;
+                // height: 190px;
+                // background-color: $blue-grey;
+                font-size: 18px;
+            }
+            .note{
+                // width: 60%;
+                text-align: start;
+                // margin-left: 5px;
+                p{color: grey; font-size: 13px;}
+            }
+        }
+    }
+}

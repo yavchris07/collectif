@@ -1,0 +1,80 @@
+//SASS PAGE
+// $base-color: #c6538c;
+$blac-color:#212121;
+$blue1:#003464;
+$blue:#006cd1;
+$yellow:#ff9922;
+$back-opacity: rgb(0, 0, 0,.5);
+$white-kolor: #fff;
+$white-opacity:#f9f9f9;
+$white-black:#f7f7f7;
+$blue-grey : rgb(239 242 250/1);
+
+.bn{
+    background-color: $blue1;
+    .bnn{
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 5px;
+        .child{
+            font-size: 13px;
+            color: grey;
+        }
+        .so{
+            color: #efefef;
+            display: flex;
+            gap: 5px;
+        }
+    }
+   .logo{
+        background: #efefef;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .icon{
+        
+            img{
+                width: 190px;
+                height: 130px;
+                object-fit: cover;
+            }
+        }
+        p{
+            font-size: 30px;
+            color: #003464;
+        }
+   } 
+
+}
+
+
+@media screen and (max-width:600px) {
+    .bn{
+        .bnn{
+            padding: 8px 2px;
+            .child{
+                font-size: 10px;
+            }
+            .so{
+                gap: 4px;
+            }
+        }
+       .logo{
+            height: 230px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .icon{
+                img{
+                    width: 190px;
+                    height: 130px;
+                }
+            }
+            p{
+                font-size: 20px;
+                color: #003464;
+            }
+       } 
+    
+    } 
+}

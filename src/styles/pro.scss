@@ -1,0 +1,82 @@
+//SASS PAGE
+$blac-color:#212121;
+$back-opacity: rgb(33, 33, 33,.9);
+$back-opacity: rgb(0, 0, 0,.8);
+$white-kolor: #fff;
+$white-opacity:#f9f9f9;
+$blue-grey : rgb(239 242 250/1);
+$blue:#003464;
+// $base-color: #c6538c;
+$blac-color:#221e1e;
+$red: #ff0006;
+$blue:#006cd1;
+$yellow:#ff9922;
+$back-opacity: rgb(0, 0, 0,.9);
+$white: #fff;
+$white-opacity:#f9f9f9;
+$white-black:#f7f7f7;
+$blue1:#003464;
+$primary-color: #006cd1;
+$text-color: #333;
+$dark-color: #000;
+
+.pro{
+    width: 80%;
+    margin: auto;
+    // background: red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    // gap: 6px;
+
+    .kar{
+        // width: 80%;
+        margin: 10px auto;
+        // background-color: red;
+        // height: auto;
+        display: flex;
+        border-left: 5px solid $blue1;
+        border-radius: 3px;
+        align-items: center;
+        gap: 5px;
+        
+        .pic{
+            font-size: 20px;
+            padding-left: 3px;
+        }
+        .note{
+            font-size: 15px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .pro{
+        width: 90%;
+        margin: auto;
+        // background: red;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 7px;
+
+        .kar{
+            width: 100%;
+            margin: 10px auto;
+            // background-color: red;
+            // height: auto;
+            display: flex;
+            border-left: 5px solid $blue1;
+            border-radius: 3px;
+            align-items: center;
+            gap: 5px;
+            
+            .pic{
+                font-size: 20px;
+                padding-left: 3px;
+            }
+            .note{
+                font-size: 15px;
+            }
+        } 
+    } 
+}
