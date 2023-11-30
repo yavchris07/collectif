@@ -425,46 +425,46 @@ $yellow:#ff9922;
     }
 
     //rigth
-    .rigth-card{
-        width: 90%;
-        height: 400px;
-        margin:auto;
-        margin-top: 35px;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 5px;
-        .picture{
-            width: 100%;
-            height: 50%;
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
-        .notes{
-            width: 100%;
-            h1{
-                font-size: 20px;
-                color: grey;
-            }
-            p{
-                color: grey;
-            }
-            button{
-                background: none;
-                font-size: 15px;
-                border : 1px solid grey;
-                padding: 10px 60px;
-                cursor: pointer;
-                &:hover{
-                    background: #000;
-                    color: white;
+    // .rigth-card{
+    //     width: 90%;
+    //     height: 400px;
+    //     margin:auto;
+    //     margin-top: 35px;
+    //     display: grid;
+    //     grid-template-columns: repeat(1,1fr);
+    //     gap: 5px;
+    //     .picture{
+    //         width: 100%;
+    //         height: 50%;
+    //         img{
+    //             width: 100%;
+    //             height: 100%;
+    //             object-fit: cover;
+    //         }
+    //     }
+    //     .notes{
+    //         width: 100%;
+    //         h1{
+    //             font-size: 20px;
+    //             color: grey;
+    //         }
+    //         p{
+    //             color: grey;
+    //         }
+    //         button{
+    //             background: none;
+    //             font-size: 15px;
+    //             border : 1px solid grey;
+    //             padding: 10px 60px;
+    //             cursor: pointer;
+    //             &:hover{
+    //                 background: #000;
+    //                 color: white;
     
-                }
-            }
-        } 
-    }
+    //             }
+    //         }
+    //     } 
+    // }
 
     //title
     .ti{
@@ -480,6 +480,7 @@ $yellow:#ff9922;
         h3{
             color: grey;
             margin: 2px;
+            font-size: 15px;
         }
     }
 
@@ -533,7 +534,7 @@ $yellow:#ff9922;
             // background: #000;
 
             .slider{
-                background-color: #b25A06;
+                background-color: grey;
                 width: 100%;
                 height: 100%;
                 // color: green;
@@ -554,13 +555,8 @@ $yellow:#ff9922;
                     }
                 }
             }
-            // .slider1{
-            //     background-color: #b25A06;
-            //     width: 100%;
-            //     height: 440px;
-            //     color: #000;
-            // }
         }
+
         .more{
             // background-color: red;
             width: 100%;
