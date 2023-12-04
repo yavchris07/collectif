@@ -10,10 +10,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { BsGeoAltFill } from "react-icons/bs";
 
-interface footProps{
-  button:boolean
-}
-export default function Footer({button}:footProps) {
+export default function Footer() {
 
   // const [sum] = useState<Summary[]>(SUM);
   const { dispatch: { translate }} = useContext(LangContext);

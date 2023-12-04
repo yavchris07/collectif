@@ -42,7 +42,7 @@ export default function GetInvolved() {
           <img src={volu} alt="" />
         </div>
       </div> */}
-      <Footer button={on}/>
+      <Footer />
     </>
   )
 }

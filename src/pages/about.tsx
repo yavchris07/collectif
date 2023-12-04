@@ -9,14 +9,13 @@ import Footer from '../components/footer';
 
 export default function About() {
   const { dispatch: { translate }} = useContext(LangContext);
-  const [on] = useState<boolean>(false);
   
   return (
     <>
       <Navbar /> 
       <BannerShort 
         // path='• Home • about'
-        title={translate('who')} 
+        title={translate('about')} 
         summary="" />
 
       <div className='about-card-list'>
@@ -33,12 +32,12 @@ export default function About() {
         />
         <Card 
           title= "Objectifs spécifiques "
-          resume= "• Soutenir les femmes et jeunes filles à être financièrement autonomes. • Contribuer à réduire la pauvreté, à promouvoir l'égalité des sexes et à créer une paix durable. • Aider les femmes et les jeunes filles déplacées au Nord-Kivu à améliorer leur situation économique, coopérer à l’épanouissement des enfants de la rue et des personnes vivant avec handicap. "
+          resume= "Soutenir les femmes et jeunes filles à être financièrement autonomes. • Contribuer à réduire la pauvreté, à promouvoir l'égalité des sexes et à créer une paix durable. • Aider les femmes et les jeunes filles déplacées au Nord-Kivu à améliorer leur situation économique, coopérer à l’épanouissement des enfants de la rue et des personnes vivant avec handicap. "
           clas='p'
         />
       </div>
       
-      <Footer button={on}/>
+      <Footer />
     </>
   )
 }

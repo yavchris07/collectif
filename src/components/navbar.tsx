@@ -6,7 +6,6 @@ import Header from './header';
 import { useContext } from 'react';
 import { LangContext } from '../context/lang';
 import { Banne } from './banne';
-import { IoLanguage } from 'react-icons/io5';
 
 
 // interface NavbarProps {

@@ -1,14 +1,11 @@
-// import React from 'react';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Home from './pages/home';
-import Navbar from './components/navbar';
-import Footer from './components/footer';
 import About from './pages/about';
-import Store from './pages/store';
 import Program from './pages/program';
 import WaysToGive from './pages/ways-to-give';
 import GetInvolved from './pages/get-involved';
 import Appbar from './pages/mobile-appbar';
+import Article from './pages/article';
 
 
 function Routing() {
@@ -22,8 +19,8 @@ function Routing() {
           <Route path='/our-programs' Component={Program} />
           <Route path='/get-involved' Component={GetInvolved} />
           <Route path='/way-to-give' Component={WaysToGive} />
-          <Route path='/store' Component={Store} />
           <Route path='/app-bar' Component={Appbar} />
+          <Route path='/article/:id' element={<Article />}/>
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

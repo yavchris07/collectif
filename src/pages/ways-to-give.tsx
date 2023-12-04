@@ -75,7 +75,7 @@ export default function WaysToGive() {
          </div>
       </div>
    
-      <Footer button={button}/>
+      <Footer />
     </>
   )
 }

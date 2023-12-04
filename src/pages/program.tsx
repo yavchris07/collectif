@@ -72,7 +72,7 @@ export default function Program() {
         />
       </div>
  
-      <Footer button={on}/>
+      <Footer />
     </>
   )
 }

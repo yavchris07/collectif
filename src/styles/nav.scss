@@ -1,8 +1,5 @@
 //SASS PAGE
-// $base-color: #c6538c;
 $blac-color:#221e1e;
-// $red: #ff0006;
-// $blue:#003464;
 $blue:#006cd1;
 $yellow:#ff9922;
 $back-opacity: rgb(0, 0, 0,.9);
@@ -173,7 +170,7 @@ nav{
         }
     }
     .option{
-        display: none;
+      display: none;
     }
    
 }
@@ -265,7 +262,7 @@ nav{
 
 @media screen and (max-width:600px) {
    
-    nav{
+  nav{
         // background: transparent;
         background: $blue1;
         position: sticky;
@@ -328,7 +325,7 @@ nav{
               font-size: 30px;
             }
         }
-    }
+  }
 }
 
 

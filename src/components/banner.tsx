@@ -3,12 +3,17 @@ import '../styles/banner.scss'
 import { LangContext } from '../context/lang';
 import { FaInstagram } from "react-icons/fa";
 
-function Banner() {
+interface bannerProps {
+  title: string
+}
+
+function Banner({title}:bannerProps) {
   
-  const { dispatch: { translate }} = useContext(LangContext);
+  // const { dispatch: { translate }} = useContext(LangContext);
+
   return (
     <section className='banner'>
-      <h1>les nouvelles les plus recentes</h1>
+      <h1>{title}</h1>
       <FaInstagram />
     </section>
   )
